@@ -50,9 +50,18 @@
 2.  **安装依赖**
     在终端中运行以下命令安装所需的 Python 库：
     ```bash
+    - 创建虚拟环境 (文件夹名为 venv)
+    python -m venv venv
+
+    - 激活虚拟环境
+    # Windows:
+    .\venv\Scripts\activate
+
+    # macOS / Linux:
+    source venv/bin/activate
+    
     pip install -r requirements.txt
     ```
-
 3.  **准备驱动 (可选)**
     *   **Chrome 用户**：脚本内置自动驱动管理，通常无需操作。如遇网络问题，请手动下载 `chromedriver.exe` 放入项目根目录。
     *   **Edge 用户**：脚本默认调用系统 Edge。如启动失败，请下载对应的 `msedgedriver.exe` 放入项目根目录。

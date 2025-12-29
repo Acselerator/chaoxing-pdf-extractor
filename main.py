@@ -23,7 +23,7 @@ OUTPUT_DIR = "downloads"
 # 登录页面
 LOGIN_URL = "https://passport2.chaoxing.com/login?fid=&newversion=true&refer=http%3A%2F%2Fi.chaoxing.com"
 # 目标课程页面 (用户指定)
-TARGET_COURSE_URL = "https://mooc2-ans.chaoxing.com/mooc2-ans/mycourse/stu?courseid=254798365&clazzid=126293182&cpi=338104206&enc=ca4b13cffa8d0f93decab6959464ca5f&t=1766720885619&pageHeader=1&v=0&hideHead=0"
+TARGET_COURSE_URL = "https://mooc2-ans.chaoxing.com/mooc2-ans/mycourse/stu?courseid=256450797&clazzid=130453108&cpi=338099829&enc=8a3edf50ac1b05b64db238eed60da6c4&t=1767000829147&pageHeader=1&v=0&hideHead=0"
 
 def sanitize_filename(name):
     return re.sub(r'[\\/*?:"<>|]', "", name).strip()
