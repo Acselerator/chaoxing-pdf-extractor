@@ -1,3 +1,7 @@
+**该仓库暂停更新，新仓库请移步 https://github.com/Acselerator/chaoxing-pdf-grabber**
+
+---
+
 # 学习通课程 PDF 提取工具 (Chaoxing PDF Extractor)
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
